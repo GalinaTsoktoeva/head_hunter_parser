@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "headhunter"
+version = "0.1.0"
+description = ""
+authors = ["galina-tsoktoeva"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.30.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
